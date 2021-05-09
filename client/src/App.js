@@ -1,12 +1,12 @@
-import LandingPage from './landing_page';
+import Main from './main';
 
 
 function App() {
   return (
     <div className="App">
-      <LandingPage></LandingPage>
+      <Main></Main>
     </div>
   );
 }
 
-export default LandingPage;
+export default Main;

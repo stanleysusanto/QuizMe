@@ -25,7 +25,7 @@ function Questions( ) {
 
     const Example = () => (
        <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-         <Button variant="secondary">Check your answer here</Button>
+         <Button variant="info">Check your answer here</Button>
        </OverlayTrigger>
     );  
 
