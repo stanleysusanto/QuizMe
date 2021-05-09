@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import StatisticsCard from './components/statistics-card'
+import LandingPage from './landing_page';
 
 
 function App() {
   return (
     <div className="App">
-      <StatisticsCard></StatisticsCard>
+      <LandingPage></LandingPage>
     </div>
   );
 }
 
-export default App;
+export default LandingPage;
