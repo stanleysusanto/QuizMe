@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Col, Row, Container, Button} from "react-bootstrap";
 import './component/components.css'
 import revolution from './img/revolution.png'
+import logo from './img/logo.jpg'
 
 function LandingPage( ) {  
   
@@ -17,7 +18,8 @@ function LandingPage( ) {
     return (
         <Container fluid>
             <Row>
-                <Col style={{marginTop:'20px', marginLeft:'40rem',}} >
+                <Col style={{marginTop:'20px', marginLeft:'30rem',}} >
+                    <img style={{width:'60px',height:'60px', marginRight:'200px'}} src={logo}></img>
                     <Button style={{margin:'20px'}} variant="light">About</Button>
                     <Button style={{margin:'20px'}} variant="light">Collections</Button>
                     <Button style={{margin:'20px'}} variant="light">Contribute</Button>
